@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+header {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+#navigation a {
+    font-size: .8em;
+    color: #333;
+}
+
+.navbar-default {
+    background-color: #fff;
+}
+
+#navigation li {
+    display: inline-block;
+    padding: .5em;
+}
+
+#signin {
+    background: #4887ef;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+#signin a {
+    color: #fff;
+}
+
+#signin:hover { 
+    box-shadow: 1px 1px 5px #999;
+}
+
+li.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.google #googlelogo {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10em;
+}
+
+.navbar-toggler{
+    color: #333;
+}
+
+.form {
+    text-align: center;
+}
+
+#form-search { 
+    width: 30em;
+    line-height: 2em;
+    padding: 1em .5em;
+    border-radius: 3em;
+    margin-top: 1em;
+    border: 1px solid #dcd;
+}
+
+.form #form-search {
+    padding: 0.2em 1em;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 2em;
+    margin-bottom: 10em;
+  }
+
+.submit {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 0.2em;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 1em;
+    margin: 1em 0.2em;
+    padding: 0 1.2em;
+    line-height: 2em;
+    height: 2.2em;
+    min-width: 2.2em;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+footer  {
+    background: #f2f2f2;
+    border-top: solid 1px #f0f0f0;
+  /*   position: fixed; */
+    width: 100%;
+  }
+  
+  footer ul li {
+    display: inline;
+    font-size: 0.8em;
+    padding: 1.2em;
+    text-align: center;
+  }
+  
+  footer ul {
+    float: left;
+    padding: 1px;
+  }
+
+  footer ul a {
+      color: #666;
+  }
+  
+  footer ul a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-right {
+    float: right;
+  }
+  
